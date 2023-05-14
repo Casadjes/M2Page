@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+.book {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "IM Fell English SC";
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px;
+	max-width: 500px;
+	height: 320px;
+
+	background-image: url("https://static.vecteezy.com/system/resources/previews/012/981/770/original/old-parchment-paper-scroll-sheet-vintage-aged-or-texture-background-png.png");
+	background-size: cover;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	height: 90%;
+	overflow-y: scroll;
+	font-size: 20px;
+}
+.container::-webkit-scrollbar {
+	background-color: #7a8633af;
+	width: 10px;
+}
+.container::-webkit-scrollbar-thumb {
+	background-color: #333; /* Color personalizado */
+}
+.bookImg {
+	width: 90%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.book-title {
+	border-radius: 5px 5px 0 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.book-title h1 {
+	margin: 0;
+}
+
+.book-body {
+	padding: 10px;
+}
